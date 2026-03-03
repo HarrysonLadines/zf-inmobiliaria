@@ -32,8 +32,6 @@ A professional, production-ready real estate platform. This project features a c
 
 ---
 
----
-
 ##  Technical Highlights
 
 * **Custom Admin CMS:** Beyond standard Headless CMS usage, I developed a specialized administrative panel in Next.js. This allows the owner to modify global site settings (Hero carousels, contact info, social media links) that propagate instantly across the entire platform.
