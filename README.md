@@ -1,13 +1,13 @@
-# Real Estate Management System (Full-Stack)
+# 🏠 Real Estate Management System (Full-Stack)
 
-A professional, production-ready real estate platform. This project features a custom-built administration suite, interactive mapping, and a fully decoupled architecture using Next.js and Strapi.
+Real estate platform developed for a client, featuring a custom administration suite, interactive mapping, and a decoupled architecture using Next.js and Strapi.
 
 > **Note:** The source code is private. This repository serves as a technical case study of the architecture, integrations, and features implemented.
 
 ---
 
 ## 🔗 Live Project
-* **Website:** [www.zfinmobiliaria.com](https://www.zfinmobiliaria.com/) 🚀
+* **Website:** [www.zfinmobiliaria.com](https://www.zfinmobiliaria.com/) 
 * **Frontend:** Deployed on Vercel
 * **Backend:** Deployed on Railway
 * **Database & Storage:** Supabase (PostgreSQL)
@@ -32,13 +32,16 @@ A professional, production-ready real estate platform. This project features a c
 
 ---
 
-##  Technical Highlights
+## Technical Highlights
 
 * **Custom Admin CMS:** Beyond standard Headless CMS usage, I developed a specialized administrative panel in Next.js. This allows the owner to modify global site settings (Hero carousels, contact info, social media links) that propagate instantly across the entire platform.
+
 * **Dynamic Interactive Maps:** Integrated **Leaflet** to provide real-time property locations. The system filters properties by transaction type (Sale/Rent) and updates the map markers dynamically.
-* **Infrastructure & Automation:** * **Automated Maintenance:** Implemented a **GitHub Action** "keep-alive" workflow to ensure database availability on free-tier plans.
-    * **Advanced Security:** Configured **Row Level Security (RLS)** in Supabase to restrict data access exclusively to the Strapi middleware.
-    * **Performance:** Client-side image compression was implemented to optimize property uploads before they reach the cloud.
+
+* **Infrastructure & Automation**
+  * **Automated Maintenance:** Implemented a **GitHub Action** "keep-alive" workflow to ensure database availability on free-tier plans.
+  * **Advanced Security:** Configured **Row Level Security (RLS)** in Supabase to restrict data access exclusively to the Strapi middleware.
+  * **Performance:** Client-side image compression optimizes property uploads before reaching cloud storage.
 
 ---
 
@@ -60,7 +63,7 @@ A professional, production-ready real estate platform. This project features a c
 
 ---
 
-## 📦 Key Features
+## ✨ Key Features
 
 ### Client Experience
 * **Direct Lead Generation:** Integrated contact forms via **Resend** with automated HTML email replies for both admin and users.
@@ -83,4 +86,4 @@ The system is built on a **Decoupled Full-Stack** model:
 
 ---
 
-Copyright © 2026 ZF Inmobiliaria. All rights reserved.
+© ZF Inmobiliaria – Project showcased for portfolio purposes.
