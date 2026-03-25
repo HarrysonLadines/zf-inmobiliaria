@@ -43,6 +43,8 @@ Real estate platform developed for a client, featuring a custom administration s
   * **Advanced Security:** Configured **Row Level Security (RLS)** in Supabase to restrict data access exclusively to the Strapi middleware.
   * **Performance:** Client-side image compression optimizes property uploads before reaching cloud storage.
 
+* **Bot Protection & Security:** Integrated Cloudflare Turnstile into contact forms to provide a seamless, CAPTCHA-free experience for users while effectively blocking automated spam and bot submissions.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -59,7 +61,7 @@ Real estate platform developed for a client, featuring a custom administration s
 * **Database:** PostgreSQL (Supabase)
 * **Storage:** Supabase Storage (S3 Provider)
 * **Email Service:** Resend API
-* **DNS & Security:** Cloudflare + Hostinger
+* **DNS & Security:** Cloudflare (Turnstile & WAF) + Hostinger
 
 ---
 
@@ -74,6 +76,7 @@ Real estate platform developed for a client, featuring a custom administration s
 * **Property Management:** Custom forms for creating and editing properties, including the ability to tag them as **"New"** or **"Featured"** to highlight them on the main landing page.
 * **Global Content Manager:** Dedicated section to update home-page messages, carousels, and contact details (WhatsApp, social media, address) without code intervention.
 * **Secure Auth:** Protected routes with JWT authentication and role-based access.
+* **Smart Visibility Logic:** Properties marked as Sold/Rented are automatically removed from interactive maps, moved to the end of the listings, and their detail pages are updated to block inquiries.
 
 ---
 
